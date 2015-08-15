@@ -3867,8 +3867,8 @@ footer.short-2 .contact-action:hover {
 }
 @media all and (max-width: 767px) {
   .simple-bar .logo {
-    max-height: 30px;
-    bottom: 30px;
+    max-height: 70px;
+    bottom: 12px;
   }
   .simple-bar .menu li a {
     padding-bottom: 0px;
