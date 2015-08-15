@@ -2689,7 +2689,7 @@ iframe.mail-list-form {
 }
 footer {
   padding-top: 80px;
-  padding-bottom: 80px;
+  padding-bottom: 30px;
 }
 footer.social h1 {
   margin-bottom: 24px;
@@ -4346,4 +4346,15 @@ footer.short-2 .contact-action:hover {
 }
 .no-loader .loader {
   display: none !important;
+}
+
+.center{
+  text-align: center;
+  margin: 0 auto;
+}
+
+#footerlogo{
+  float: right;
+  margin-bottom: 0px;
+  margin-top: -8px;
 }
