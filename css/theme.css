@@ -4358,3 +4358,16 @@ footer.short-2 .contact-action:hover {
   margin-bottom: 0px;
   margin-top: -8px;
 }
+
+.profile-photo{
+  width: 172px;
+  height: 172px;
+  border-radius: 172px;
+  border: 4px solid #fff;
+  margin: 0 auto;
+}
+
+#isaac{
+  background-image: url('../img/isaac-small.jpg');
+  background-size: cover;
+}
