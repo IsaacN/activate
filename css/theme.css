@@ -4380,3 +4380,7 @@ header .btn{
   margin-top: 15px;
   margin-bottom: -20px;
 }
+
+nav.simple-bar.top-bar{
+  position: fixed;
+}

@@ -5,7 +5,7 @@ $(document).ready(function(){
 	// Nav Sticky
 	
 	$(window).scroll(function(){
-		if($(window).scrollTop() > 500 && !$('.mobile-toggle').is(":visible")){
+		if($(window).scrollTop() > 125 && !$('.mobile-toggle').is(":visible")){
 			$('.top-bar').addClass('nav-sticky');
 		}else{
 			$('.top-bar').removeClass('nav-sticky');
