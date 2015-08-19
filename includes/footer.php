@@ -27,7 +27,7 @@
 					
 					<div class="row">
 						<div class="col-sm-12">
-							<span class="sub">© Copright 2015 Activate Education—All Rights Reserved</span>
+							<span class="sub">© Copright <?php echo date("Y") ?> Activate Education—All Rights Reserved</span>
 						</div>
 					</div>
 					

@@ -313,7 +313,7 @@
 						
 						<div class="col-sm-6">
 							<div class="team-1-member">
-								<img alt="Team Member" src="img/team-small-3.png ">
+								<div id='nathan' class='profile-photo'> </div>
 								<h2>Nathan Obermuller</h2>
 								<h5>Co-Founder &amp; Director of Education</h5>
 								<p class="space-top-small">

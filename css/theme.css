@@ -4365,11 +4365,15 @@ footer.short-2 .contact-action:hover {
   border-radius: 172px;
   border: 4px solid #fff;
   margin: 0 auto;
+  background-size: cover;
 }
 
 #isaac{
   background-image: url('../img/isaac-small.jpg');
-  background-size: cover;
+}
+
+#nathan{
+  background-image: url('../img/nathan-small.jpg');
 }
 
 header .btn{
