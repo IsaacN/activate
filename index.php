@@ -317,7 +317,7 @@
 								<h2>Nathan Obermuller</h2>
 								<h5>Co-Founder &amp; Director of Education</h5>
 								<p class="space-top-small">
-									Nathan is a 19-year-old studying Business (Economics) and Mathematics (Decision Science) at the Queensland University of Technology. He is talented in tailoring learning to individual students and bringing out the best in everyone he comes into contact with. He has a shocking head, which is why we haven't included it here. He is an avid sports-lover despite his lacklustre frame. Nathan graduated from Sheldon College, where he was school captain, in 2014 with an OP 1.
+									Nathan is a 19-year-old studying Business (Economics) and Mathematics (Decision Science) at the Queensland University of Technology. He is talented in tailoring learning to individual students and bringing out the best in everyone he comes into contact with. He is an avid sports-lover despite his lacklustre frame. Nathan graduated from Sheldon College, where he was school captain, in 2014 with an OP 1.
 								</p>
 							</div>
 						</div>
