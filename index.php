@@ -24,8 +24,8 @@
 					
 						<div class="col-md-9 col-sm-9 columns text-right">
 							<ul class="menu">
-								<li><a href="#">Single Link</a></li>
-								<li class="has-dropdown"><a href="#">Dropdown</a>
+								<li><a href="login.php">Client Portal</a></li>
+								<!-- <li class="has-dropdown"><a href="#">Dropdown</a>
 									<ul class="subnav">
 										<li><a href="#">Example</a></li>
 										<li><a href="#">Example</a></li>
@@ -98,7 +98,7 @@
 											</ul>	
 										</div>
 									</div>
-								</li>
+								</li> -->
 								
 							</ul>
 		
