@@ -24,7 +24,8 @@
 					
 						<div class="col-md-9 col-sm-9 columns text-right">
 							<ul class="menu">
-								<li><a href="login.php">Client Portal</a></li>
+								<!--<li><a href="login.php">Client Portal</a></li>--> 
+								<!-- un-comment the above once client portal is active and working --> 
 								<!-- <li class="has-dropdown"><a href="#">Dropdown</a>
 									<ul class="subnav">
 										<li><a href="#">Example</a></li>
@@ -196,9 +197,9 @@
 											<i class="icon icon-genius"></i>
 										</div>
 										<div class="feature-text">
-											<h6>Something</h6>
+											<h6>Reduced Test Anxiety</h6>
 											<p>
-												Lorem ipsum dolor sit amet. Words will go here once I think of them.</p>
+												Private tutoring regularly results in lower levels of pre-test stress for students of all ages, according to a 2002 </p>
 										</div>
 									</div>
 								</div>
@@ -257,18 +258,19 @@
 							<div class="testimonials-slider text-center">
 								<ul class="slides">
 									<li>
-										<p class="text-white lead">Thanks to Isaac, Ava is going from strength to personal strength.</p>
-										<span class="author text-white">Lisa - Activate parent</span>
+										<p class="text-white lead">Thanks to Isaac, my child is going from strength to personal strength.</p>
+										<span class="author text-white">Lisa - Activate Parent</span>
+									</li>
+									
+									<li>
+										<p class="text-white lead">No other tutor has ever taken as much interest in my son's learning as Nathan has, and it really shows!</p>
+										<span class="author text-white">Linda - Activate Parent</span>										
 									</li>
 									
 									<li>
 										<p class="text-white lead">I couldn't have done anywhere near as well as I did last term without Isaac's help.</p>
 										<span class="author text-white">Georgia - Activate Student</span>
-									</li>
-									
-									<li>
-										<p class="text-white lead">No other tutor has ever taken as much interest in my son's learning as Nathan has, and it really shows!</p>
-										<span class="author text-white">Linda - Activate Parent</span>
+										
 									</li>
 								</ul>
 							</div>
@@ -306,7 +308,16 @@
 								<h2>Isaac Nankavill</h2>
 								<h5>Founder &amp; Managing Director</h5>
 								<p class="space-top-small">
-									Isaac is a 17-year-old studying Law (Hons) and Business Management at the University of Queensland. He's passionate about helping people, and that's why Activate is well-resourced, well-priced and—for our tutors—high-paying. During his (little) spare time, he enjoys spending time with his friends &amp; girlfriend, working on his health &amp; fitness, and reluctantly completing next week's Constitutional Law readings. Isaac graduated from Sheldon College, where he was vice-captain, in 2014 with an OP 1.
+								<?php
+									$birthDate = "11/06/1997";
+									  //explode the date to get month, day and year
+									  $birthDate = explode("/", $birthDate);
+									  //get age from date or birthdate
+									  $isaacAge = (date("md", date("U", mktime(0, 0, 0, $birthDate[0], $birthDate[1], $birthDate[2]))) > date("md")
+									    ? ((date("Y") - $birthDate[2]) - 1)
+									    : (date("Y") - $birthDate[2]));
+									    ?>
+									Isaac is a <?=$isaacAge?>-year-old studying Law (Hons) and Business Management at the University of Queensland. He's passionate about helping people, and that's why Activate is well-resourced and well-priced. During his (little) spare time, he enjoys spending time with his friends &amp; girlfriend, working on his health &amp; fitness, and reluctantly completing next week's Constitutional Law readings. Isaac graduated from Sheldon College, where he was vice-captain, in 2014 with an OP 1.
 								</p>
 							</div>
 						</div>
@@ -317,7 +328,16 @@
 								<h2>Nathan Obermuller</h2>
 								<h5>Co-Founder &amp; Director of Education</h5>
 								<p class="space-top-small">
-									Nathan is a 19-year-old studying Business (Economics) and Mathematics (Decision Science) at the Queensland University of Technology. He is talented in tailoring learning to individual students and bringing out the best in everyone he comes into contact with. He is an avid sports-lover despite his lacklustre frame. Nathan graduated from Sheldon College, where he was school captain, in 2014 with an OP 1.
+								<?php
+									$nathanBirthDate = "06/04/1996";
+									  //explode the date to get month, day and year
+									  $nathanBirthDate = explode("/", $nathanBirthDate);
+									  //get age from date or birthdate
+									  $nathanAge = (date("md", date("U", mktime(0, 0, 0, $nathanBirthDate[0], $nathanBirthDate[1], $nathanBirthDate[2]))) > date("md")
+									    ? ((date("Y") - $nathanBirthDate[2]) - 1)
+									    : (date("Y") - $nathanBirthDate[2]));
+									    ?>
+									Nathan is a <?=$nathanAge?>-year-old studying Business (Economics) and Mathematics (Decision Science) at the Queensland University of Technology. He is talented in tailoring learning to individual students and bringing out the best in everyone he comes into contact with. He is an avid sports-lover despite his lacklustre frame. Nathan graduated from Sheldon College, where he was school captain, in 2014 with an OP 1.
 								</p>
 							</div>
 						</div>
