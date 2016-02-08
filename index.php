@@ -137,6 +137,7 @@
 							<span class="text-white alt-font">Why Activate?</span>
 							<h1 class="text-white">We're a tutoring agency with a difference.</h1>
 							<p class="text-white lead">We're recent high-school graduates, so we know what schooling is like today. We know the curriculum. We know how to do the exact assessment pieces that are required. We're friendly and passionate, and we're here to help.</p>
+
 							<a href="#" class="btn btn-primary btn-filled">Enquire Now!</a>
 						</div>
 					</div>
@@ -258,8 +259,8 @@
 							<div class="testimonials-slider text-center">
 								<ul class="slides">
 									<li>
-										<p class="text-white lead">Thanks to Isaac, my child is going from strength to personal strength.</p>
-										<span class="author text-white">Lisa - Activate Parent</span>
+										<p class="text-white lead">Thanks to Isaac, my son is going from strength to personal strength.</p>
+										<span class="author text-white">David - Activate Parent</span>
 									</li>
 									
 									<li>
@@ -317,7 +318,7 @@
 									    ? ((date("Y") - $birthDate[2]) - 1)
 									    : (date("Y") - $birthDate[2]));
 									    ?>
-									Isaac is a <?=$isaacAge?>-year-old studying Law (Hons) and Business Management at the University of Queensland. He's passionate about helping people, and that's why Activate is well-resourced and well-priced. During his (little) spare time, he enjoys spending time with his friends &amp; girlfriend, working on his health &amp; fitness, and reluctantly completing next week's Constitutional Law readings. Isaac graduated from Sheldon College, where he was vice-captain, in 2014 with an OP 1.
+									Isaac is a <?=$isaacAge?>-year-old studying Law (Hons) and Business Management at the University of Queensland. He's passionate about helping people, and that's why Activate is well-resourced and well-priced. During his (little) spare time, he enjoys spending time with his friends &amp; girlfriend, working on his health &amp; fitness, and researching mad scientists who may have found a way to help him grow taller than 5'5". Isaac graduated from Sheldon College, where he was vice-captain, in 2014 with an OP 1.
 								</p>
 							</div>
 						</div>

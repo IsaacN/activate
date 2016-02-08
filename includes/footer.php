@@ -1,40 +1,24 @@
-		
-		<div class="footer-container">
-		
-			<footer class="details">
+		<div class='footer-container'>
+			<footer class="bg-secondary-2 short-2">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12">
-							<div class='col-sm-10'>
-								<p>
-									Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-								</p>
-							</div>
-							<div class='col-sm-2'>
-								<img alt="logo" class="logo center" id='footerlogo' src="img/logo-dark.png">
-								<!-- <p>
-									Lorem Ipsum. <br>
-									Dolor Sit. <br>
-									Amet. <br>
-								</p> -->
-							</div>
-						</div>
-						
-						
-						
-						
-					</div>
-					
-					<div class="row">
-						<div class="col-sm-12">
-							<span class="sub">© Copright <?php echo date("Y") ?> Activate Education—All Rights Reserved</span>
+							<span class="text-white">© Copright <?php echo date("Y") ?> Activate Education—All Rights Reserved</span>
+							<span class="text-white"><a href="mailto:hello@activateeducation.com.au">hello@activateeducation.com.au</a></span>
+							<span class="text-white">Brisbane Bayside Home Tutors</span>
+							<!-- <span class="text-white">Brisbane, QLD Australia.</span> -->
 						</div>
 					</div>
-					
+				</div>
+				
+				<div class="contact-action">
+					<div class="align-vertical">
+						<i class="icon text-white icon_mail"></i>
+						<a href="contact.php" class="text-white"><span class="text-white">Get in touch with us <i class="icon arrow_right"></i></span></a>
+					</div>
 				</div>
 			</footer>
 		</div>
-				
 		<script src="https://www.youtube.com/iframe_api"></script>
 		<script src="js/jquery.min.js"></script>
         <script src="js/jquery.plugin.min.js"></script>

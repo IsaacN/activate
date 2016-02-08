@@ -2788,7 +2788,7 @@ footer.short-2 .contact-action {
   right: 0px;
   height: 100%;
   width: 25%;
-  background: #0a1323;
+  background: #f26c4f;
   z-index: 3;
   top: 0;
   text-align: center;
@@ -2806,7 +2806,7 @@ footer.short-2 .contact-action .arrow_right {
   top: 2px;
 }
 footer.short-2 .contact-action:hover {
-  background: #060a14;
+  background: #1b325f;
 }
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   .top-bar {
@@ -4354,7 +4354,8 @@ footer.short-2 .contact-action:hover {
 }
 
 #footerlogo{
-  float: right;
+  width: 80px;
+  margin-left: 32px;
   margin-bottom: 0px;
   margin-top: -8px;
 }
@@ -4384,3 +4385,4 @@ header .btn{
 nav.simple-bar.top-bar{
   position: fixed;
 }
+
