@@ -11,15 +11,14 @@
 						<div class="col-md-9 col-sm-9 columns text-right">
 							<ul class="menu"> 
 								<!--<li><a href="login.php">Client Portal</a></li>--> 
-								<li class="has-dropdown"><a href="#">Our Tutors</a>
+								<!--<li class="has-dropdown"><a href="#">Our Tutors</a>
 									<ul class="subnav">
 										<li><a href="/tutors/isaac.php">Isaac</a></li>
 										<li><a href="/tutors/nathan.php">Nathan</a></li>
 									</ul>
-								</li>
+								</li>-->
 								<li><a href="contact.php">Contact Us</a></li>
 								<a href="contact.php" class="btn btn-primary btn-filled hidden-xs" style='margin-top: -14px;'>Enquire Now!</a>
-								<!-- un-comment the above once client portal is active and working --> 
 								<!-- <li class="has-dropdown"><a href="#">Dropdown</a>
 									<ul class="subnav">
 										<li><a href="#">Example</a></li>
