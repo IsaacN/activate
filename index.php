@@ -26,7 +26,7 @@
 							<h1 class="text-white">We're a tutoring agency with a difference.</h1>
 							<p class="text-white lead">We're recent high-school graduates, so we know what schooling is like today. We know the curriculum. We know how to do the exact assessment pieces that are required. We're friendly and passionate, and we're here to help.</p>
 
-							<a href="#" class="btn btn-primary btn-filled">Enquire Now!</a>
+							<a href="contact.php" class="btn btn-primary btn-filled">Enquire Now!</a>
 						</div>
 					</div>
 				</div>
@@ -176,7 +176,7 @@
 						</div>
 						
 						<div class="col-sm-4 col-xs-12 pull-right text-right">
-							<a href="#" class="btn btn-primary btn-filled">Enquire Now!</a>
+							<a href="contact.php" class="btn btn-primary btn-filled">Enquire Now!</a>
 						</div>
 					</div>
 				</div>
@@ -299,7 +299,7 @@
 						<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
 							<h1 class="text-white">This sounds great! Where do I start?</h1>
 							<h2 class="text-white">We're thrilled to hear it, and you'll be thrilled with the results.</h2>
-							<a href="#" class="btn btn-primary btn-white btn-filled">Enquire Today!</a>
+							<a href="contact.php" class="btn btn-primary btn-white btn-filled">Enquire Today!</a>
 						</div>
 					</div>
 				</div>
