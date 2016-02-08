@@ -17,7 +17,7 @@
 										<li><a href="/tutors/nathan.php">Nathan</a></li>
 									</ul>
 								</li>-->
-								<li><a href="contact.php">Contact Us</a></li>
+								
 								<a href="contact.php" class="btn btn-primary btn-filled hidden-xs" style='margin-top: -14px;'>Enquire Now!</a>
 								<!-- <li class="has-dropdown"><a href="#">Dropdown</a>
 									<ul class="subnav">
