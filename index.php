@@ -23,7 +23,7 @@
 						</div>
 					
 						<div class="col-md-9 col-sm-9 columns text-right">
-							<ul class="menu">
+							<ul class="menu"> 
 								<!--<li><a href="login.php">Client Portal</a></li>--> 
 								<!-- un-comment the above once client portal is active and working --> 
 								<!-- <li class="has-dropdown"><a href="#">Dropdown</a>
