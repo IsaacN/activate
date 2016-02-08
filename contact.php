@@ -34,9 +34,11 @@
 									<div class="inputs-wrapper">
 										<input class="form-name validate-required" type="text" placeholder="Your Name" name="name">
 										<input class="form-email validate-required validate-email" type="text" name="email" placeholder="Your Email Address">
-										<textarea class="form-message validate-required" name="message" placeholder="Your Message"></textarea>
+										<input class="form-phone" type="text" name="phone" placeholder="Your Phone Number">
+										<input type="text" name="year" placeholder="Student(s) Year Level(s)">
+										<textarea class="form-message validate-required" name="message" placeholder="Your Message. Please be sure to mention which subjects you are interested in tutoring for."></textarea>
 									</div>
-									<input type="submit" class="send-form" value="Send Form">
+									<input type="submit" class="send-form" value="Submit!">
 									<div class="form-success">
 										<span class="text-white">Message sent - Thanks for your enquiry</span>
 									</div>
