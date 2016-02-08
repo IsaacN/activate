@@ -1,0 +1,12 @@
+footer{
+	height: 150px;
+	padding: 0px;
+}
+
+a.logo{
+	color: none;
+}
+
+.top-bar .logo{
+	bottom: 4px;
+}

@@ -1,6 +1,6 @@
 		<div class='footer-container'>
 			<footer class="bg-secondary-2 short-2">
-				<div class="container">
+				<div class="container align-vertical">
 					<div class="row">
 						<div class="col-sm-12">
 							<span class="text-white">© Copright <?php echo date("Y") ?> Activate Education—All Rights Reserved</span>

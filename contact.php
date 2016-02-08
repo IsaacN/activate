@@ -11,8 +11,9 @@
 			</div>
     	</div>
 				
-		<div class="nav-container">
-		</div>
+		<?php 
+			include 'includes/nav.php'
+		?>
 		
 		<div class="main-container">
 		<section class="contact-center">
