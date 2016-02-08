@@ -24,9 +24,9 @@ if(isset($_POST['email'])) {
 	// or if you prefer/need to fall back to use PHP's inbuilt mail() function:
 	// $transport = Swift_MailTransport::newInstance();
 	
-	$transport = Swift_SmtpTransport::newInstance('mail.yourdomain.com', 25, 'tls' )
-	  ->setUsername('email@domain.com')     
-	  ->setPassword('p@55w0rd')
+	$transport = Swift_SmtpTransport::newInstance('petyrbaelish.asoshared.com', 465, 'tls' )
+	  ->setUsername('hello@activateeducation.com.au')     
+	  ->setPassword('CaptainMater14l!')
 	  ;
 
 	
@@ -42,9 +42,9 @@ if(isset($_POST['email'])) {
 	
 	
 	// You can change "A message from Pivot Template Form" to your own subject if you want.
-	$message = Swift_Message::newInstance('A message from Pivot Template Form')
+	$message = Swift_Message::newInstance('Activate Education Website Inquiry')
 	  ->setFrom(array($_POST['email'] => $_POST['name']))
-	  ->setTo(array('email@yourdomain.com' => 'John Doe'))->setBody($messageText);
+	  ->setTo(array('hello@activateeducation.com.au' => 'Activate Education'))->setBody($messageText);
 //                           ^                    ^
 //       Your email address_/          Your name_/
 
@@ -56,6 +56,7 @@ if(isset($_POST['email'])) {
 	}
 	catch(Exception $e){
 		echo($e->getMessage());
+		//echo("Uh oh! Looks like our website host is having some problems. Please call Isaac on 0407 008 422 instead, or email us on <a href='mailto:hello@activateeducation.com.au> hello@activateeducation.com.au</a> and we'll get back to you as soon as possible.")
 	}
 	exit;
 }

@@ -128,7 +128,7 @@
 		<div class="main-container">
 			<header class="page-header">
 				<div class="background-image-holder parallax-background">
-					<img class="background-image" alt="Background Image" src="img/hero6.jpg">
+					<img class="background-image" id='hero-bg' alt="Background Image" style='' src="img/main-hero.jpg">
 				</div>
 				
 				<div class="container">
@@ -167,7 +167,7 @@
 								<div class="feature feature-icon-small">
 									<i class="icon icon-wallet"></i>
 									<h6 class="text-white">Affordable</h6>
-									<p class="text-white">Our prices are the lowest you'll find. We believe that home tutoring is the most effective way for a student to reach his or her potential; we want it to be accessible to everyone. Activate gives you excellent service, for an extremely affordable price.</p>
+									<p class="text-white">Our prices are the lowest you'll find for any agency. We believe that home tutoring is the most effective way for a student to reach his or her potential; we want it to be accessible to everyone. Activate gives you excellent service, for an extremely affordable price.</p>
 								</div>
 							</div>
 		
@@ -194,12 +194,12 @@
 								<div class="col-md-6 no-pad-left">
 									<div class="feature feature-icon-left">
 										<div class="icon-holder">
-											<i class="icon icon-genius"></i>
+											<i class="icon icon-happy"></i>
 										</div>
 										<div class="feature-text">
 											<h6>Reduced Test Anxiety</h6>
 											<p>
-												Private tutoring regularly results in lower levels of pre-test stress for students of all ages, according to a 2002 </p>
+												Private tutoring regularly results in lower levels of pre-test stress for students of all ages, according to a 2002 university study.</p>
 										</div>
 									</div>
 								</div>
@@ -210,9 +210,9 @@
 											<i class="icon icon-flag"></i>
 										</div>
 										<div class="feature-text">
-											<h6>Another thing</h6>
+											<h6>Increased Learning Motivation</h6>
 											<p>
-												There will probably be a description of this other thing too! How cool!</p>
+												Students who partake in private tutoring show a lasting increase in motivation for academic pursuits, as reported in the European Journal of Psychology and Education.</p>
 										</div>
 									</div>
 								</div>
@@ -222,12 +222,12 @@
 								<div class="col-md-6 no-pad-left">
 									<div class="feature feature-icon-left">
 										<div class="icon-holder">
-											<i class="icon icon-mobile"></i>
+											<i class="icon icon-expand"></i>
 										</div>
 										<div class="feature-text">
-											<h6>Something Else</h6>
+											<h6>Greater Academic Self-Concept</h6>
 											<p>
-												More words will also appear here once I've thought of which words in particular to put here.</p>
+												Children and teens who have private tutors are shown to have a greater academic self esteem after undertaking regular sessions, as also reported in the European Journal of Psychology and Education.</p>
 										</div>
 									</div>
 								</div>
@@ -235,12 +235,12 @@
 								<div class="col-md-6 no-pad-left">
 									<div class="feature feature-icon-left">
 										<div class="icon-holder">
-											<i class="icon icon-clipboard"></i>
+											<i class="icon icon-heart"></i>
 										</div>
 										<div class="feature-text">
-											<h6>One last thing</h6>
+											<h6>Improved Attitudes Toward Schooling</h6>
 											<p>
-												Yes, there are indeed FOUR entire things included here. Four. Look at that value!</p>
+												Attitudes of primary- and high-school students toward school are shown to improve after undertaking additional tutelage outside of school hours, according to a 2001 UK study.</p>
 										</div>
 									</div>
 								</div>
